@@ -123,7 +123,7 @@ class test():
         self.var = []
         x = 0
         while x < 5:
-            self.var.append(tk.IntVar(0))
+            self.var.append(tk.IntVar(None))
             x += 1
 
         row1 = 2
